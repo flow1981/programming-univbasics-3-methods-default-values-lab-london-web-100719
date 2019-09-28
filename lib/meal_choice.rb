@@ -2,10 +2,12 @@
 
 def meal_choice(veg1, veg2, protein=meat)
 
-  meal = "A plate of #{protein} with #{veg1} and #{veg2}.";
+  puts veg1
+  puts veg2
+  puts protain
   
   puts "What a nutritious meal!";
   puts "A plate of #{protein} with #{veg1} and #{veg2}.";
   
-  return meal
+  return [veg1, veg2, protain]
 end
