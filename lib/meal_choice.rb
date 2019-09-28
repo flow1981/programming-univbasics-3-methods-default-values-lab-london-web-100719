@@ -1,6 +1,6 @@
 # Your code here
 
-def meal_choice(veg1, veg2, *protein='meat')
+def meal_choice(veg1, veg2, protein='meat')
 
   puts veg1
   puts veg2
